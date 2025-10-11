@@ -23,10 +23,12 @@ scrapper/
 ├── spider/
 │   ├── web_spider.py        # Módulo principal de scraping
 │   └── **init**.py
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├── scr/
+│   ├── css/
+│   │   └── estilos.css
+│   ├── js/
+│   │   └── script.js
+│   └── index.html
 ├── requirements.txt         # Dependencias del proyecto
 └── README.md
 
