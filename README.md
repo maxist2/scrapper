@@ -94,16 +94,6 @@ pandas
 
 ---
 
-### 🧰 Próximas mejoras
-
-* Integración con base de datos SQL o NoSQL.
-* Dashboard interactivo con visualizaciones.
-* Sistema de logs y reportes automáticos.
-* Módulo de autenticación y control de acceso.
-* Configuración dinámica de fuentes de scraping.
-
----
-
 ### 👤 Autor
 
 **Maxist2**
