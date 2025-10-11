@@ -1,4 +1,4 @@
-```markdown
+
 
 # 🕷️ Web Scraper & Data Manager
 
@@ -9,7 +9,6 @@ Combina un módulo *spider* para recolectar información desde la web con un **c
 Está pensado para ser modular, escalable y fácil de adaptar a nuevos casos de uso.
 
 
-```
 
 ### 🧩 Estructura del Proyecto
 
