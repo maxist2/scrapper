@@ -1,4 +1,5 @@
 ```markdown
+
 # 🕷️ Web Scraper & Data Manager
 
 ### 📖 Descripción
@@ -7,12 +8,13 @@ Este proyecto establece la base de una aplicación para **extracción, almacenam
 Combina un módulo *spider* para recolectar información desde la web con un **controlador de datos JSON** y una **interfaz web básica** (HTML/CSS/JS) para visualizar los resultados.  
 Está pensado para ser modular, escalable y fácil de adaptar a nuevos casos de uso.
 
----
-
-### 🧩 Estructura del Proyecto
 
 ```
 
+### 🧩 Estructura del Proyecto
+
+
+```
 scrapper/
 ├── main.py                  # Punto de entrada principal
 ├── controller/
