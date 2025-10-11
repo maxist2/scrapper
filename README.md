@@ -40,7 +40,7 @@ scrapper/
    ```bash
    git clone https://github.com/maxist2/scrapper.git
    cd scrapper
-````
+    ````
 
 2. **Crea un entorno virtual (recomendado):**
 
