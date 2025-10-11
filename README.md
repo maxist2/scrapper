@@ -77,27 +77,14 @@ python main.py
 * 🕸️ Extracción automatizada de datos web.
 * 💾 Almacenamiento estructurado en JSON.
 * 🌐 Interfaz visual sencilla (HTML/CSS/JS).
-* ⚙️ Preparado para futuras integraciones (APIs, bases de datos, dashboards, etc.).
 
----
-
-### 📦 Dependencias clave
-
-Listado en `requirements.txt`.
-Ejemplo:
-
-```txt
-requests
-beautifulsoup4
-pandas
-```
 
 ---
 
 ### 👤 Autor
 
 **Maxist2**
-💼 Desarrollador / Analista de Datos
+💼 Desarrollador
 📧 [juespudi@gmail.com](mailto:juespudi@gmail.com)
 🌐 [https://github.com/maxist2/scrapper](https://github.com/maxist2/scrapper)
 
