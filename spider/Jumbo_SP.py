@@ -18,18 +18,20 @@ def jumbo_rascador(Page):
         producto = Page.locator(f"div[data-af-product-position='{1+x}']")
 
         nombre = producto.locator("div > h3 > span").inner_text()
-        print(nombre)
-        precio = producto.locator("div > div > div > div > span").inner_text()
-        print(precio)
-        try:
-            pre_des = producto.locator(
-                '//*[@id="items-price"]/div/span/div'
-            ).inner_text()
-            print(pre_des)
-        except:
-            pre_des = "sin descuento"
-            print(pre_des)
 
-        productos.append({"nombre": nombre, "precio": f"${precio}"})
+        if nombre.contains("500g"):
+            print(nombre)
+            precio = producto.locator("div > div > div > div > span").inner_text()
+            print(precio)
+            try:
+                pre_des = producto.locator(
+                    '//*[@id="items-price"]/div/span/div'
+                ).inner_text()
+                print(pre_des)
+            except:
+                pre_des = "sin descuento"
+                print(pre_des)
+
+            productos.append({"nombre": nombre, "precio": f"${precio}"})
 
     print(productos)
