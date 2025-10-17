@@ -14,6 +14,8 @@ producto = "arroz diana"
 print("ya")
 try:
     Jumbo_SP.jumbo_rascador(Page)
+    Page.locator()
+    Jumbo_SP.jumbo_rascador(Page)
 finally:
     Browser.close()
 

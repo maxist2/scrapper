@@ -1,4 +1,5 @@
 import re
+from control_PW import PATRON
 
 
 def jubo_buscar(Page, producto):
@@ -19,7 +20,7 @@ def jumbo_rascador(Page):
 
         nombre = producto.locator("div > h3 > span").inner_text()
 
-        if nombre.contains("500g"):
+        if nombre.matches(PATRON):
             print(nombre)
             precio = producto.locator("div > div > div > div > span").inner_text()
             print(precio)
