@@ -1,0 +1,108 @@
+{
+  "tu_tienda": [
+    {
+      "tienda": "tu_tienda",
+      "nombre": "arroz",
+      "url": "https://www.tutienda.com/",
+      "precio": 700,
+      "descuento": 15,
+      "marca": "Diana",
+      "categoria": "granos",
+      "stock": 120
+    },
+    {
+      "tienda": "tu_tienda",
+      "nombre": "fideos",
+      "url": "https://www.tutienda.com/",
+      "precio": 700,
+      "descuento": 15,
+      "marca": "La Suprema",
+      "categoria": "pasta",
+      "stock": 85
+    },
+    {
+      "tienda": "tu_tienda",
+      "nombre": "aceite vegetal",
+      "url": "https://www.tutienda.com/",
+      "precio": 4200,
+      "descuento": 10,
+      "marca": "Premier",
+      "categoria": "aceites",
+      "stock": 45
+    }
+  ],
+  "mi_tienda": [
+    {
+      "tienda": "mi_tienda",
+      "nombre": "arroz",
+      "url": "https://www.mitienda.com/",
+      "precio": 500,
+      "descuento": 5,
+      "marca": "Rojo",
+      "categoria": "granos",
+      "stock": 200
+    },
+    {
+      "tienda": "mi_tienda",
+      "nombre": "fideos",
+      "url": "https://www.mitienda.com/",
+      "precio": 500,
+      "descuento": 5,
+      "marca": "Familia",
+      "categoria": "pasta",
+      "stock": 150
+    },
+    {
+      "tienda": "mi_tienda",
+      "nombre": "azúcar",
+      "url": "https://www.mitienda.com/",
+      "precio": 3500,
+      "descuento": 8,
+      "marca": "Incauca",
+      "categoria": "azúcares",
+      "stock": 60
+    }
+  ],
+  "super_ahorro": [
+    {
+      "tienda": "super_ahorro",
+      "nombre": "arroz",
+      "url": "https://www.superahorro.com/",
+      "precio": 480,
+      "descuento": 10,
+      "marca": "Doña Pepa",
+      "categoria": "granos",
+      "stock": 300
+    },
+    {
+      "tienda": "super_ahorro",
+      "nombre": "fideos",
+      "url": "https://www.superahorro.com/",
+      "precio": 520,
+      "descuento": 12,
+      "marca": "Don Vittorio",
+      "categoria": "pasta",
+      "stock": 250
+    },
+    {
+      "tienda": "super_ahorro",
+      "nombre": "aceite vegetal",
+      "url": "https://www.superahorro.com/",
+      "precio": 4100,
+      "descuento": 5,
+      "marca": "Girasol",
+      "categoria": "aceites",
+      "stock": 90
+    },
+    {
+      "tienda": "super_ahorro",
+      "nombre": "lentejas",
+      "url": "https://www.superahorro.com/",
+      "precio": 2200,
+      "descuento": 20,
+      "marca": "Campesino",
+      "categoria": "legumbres",
+      "stock": 70
+    }
+  ]
+}
